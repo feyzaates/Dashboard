@@ -56,8 +56,4 @@
 
 By following these steps, you will have set up your **Node.js** backend server using **Express** and **CORS**, and successfully run your project with **Nodemon**. Additionally, you will be able to view the **homepage.html** in the frontend using **Live Server**.
 
-Let me know if you need further assistance!
 
---- 
-
-You can copy this text as needed.
