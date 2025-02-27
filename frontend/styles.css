@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(65, 60, 60);
+    color: white; 
+}
+
+.card {
+    border: 1px solid #3a3636; 
+}
+
+.person-box {
+    border: 2px solid #ddd; /* Açık gri çerçeve */
+    border-radius: 8px; /* Köşeleri yuvarlatma */
+    padding: 15px; /* İç boşluk */
+    margin-bottom: 15px; /* Kutular arasında boşluk bırak */
+    background-color: #f9f9f9; /* Hafif arka plan rengi */
+}
+
+/* Task öğeleri için hover efekti */
+.task-item.user-card{
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.task-item:hover .user-card:hover{
+    background-color: #f8d7da; /* Kırmızımsı bir arka plan rengi */
+    transform: scale(1.05); /* Hover ile öğeyi biraz büyüt */
+    cursor: pointer;
+}
+
+/* Task öğeleri için hover efekti */
+.task-item {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.task-item:hover {
+    background-color: #f8d7da; /* Kırmızımsı bir arka plan rengi */
+    transform: scale(1.05); /* Hover ile öğeyi biraz büyüt */
+    cursor: pointer;
+}
+
+/* User kartları için hover efekti */
+.person-box {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.person-box:hover {
+    background-color: #e2e3e5; /* Grimsi bir arka plan rengi */
+    transform: scale(1.07); /* Hover ile öğeyi biraz büyüt */
+    cursor: pointer;
+}
+  
+.progress {
+    height: 10px;
+    width: 94%;
+}
+  
+.dot{
+    position: relative;
+    margin-top: -10px;
+    z-index: 5;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+  }
+
+  #dotPrimary{
+    background-color: #007bff;
+    left: 0%;
+  }
+
+  #dotDanger{
+    background-color: #dc3545;
+    left: 10%;
+  }
+  
+  #dotWarning {
+    background-color: #ffc107;
+    left: 20%;
+  }
+  
+  #dotSuccess {
+    background-color: #28a745;
+    left: 30%;
+  } 
